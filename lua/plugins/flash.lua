@@ -2,6 +2,7 @@ return {
   "folke/flash.nvim",
   event = "VeryLazy",
   opts = {
+    labels = "nrtsgyhaeicmpod",
     modes = {
       char = {
         jump_labels = true,
@@ -14,6 +15,7 @@ return {
         },
       },
     },
+    label = { rainbow = { enabled = true } },
   },
   keys = {
     { "s", mode = { "n", "x", "o" }, false },
