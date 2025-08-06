@@ -109,3 +109,5 @@ end, { desc = "Close all buffers" })
 -- Todo comments
 vim.keymap.set("n", "gct", "o<esc>VcTODO: x<esc><cmd>normal gcc<cr>fxa<bs>", { desc = "Add todo comment below" })
 vim.keymap.set("n", "gcT", "O<esc>VcTODO: x<esc><cmd>normal gcc<cr>fxa<bs>", { desc = "Add todo comment above" })
+
+Snacks.toggle.option("wrap", { name = "Wrap" }):map("<leader>uw")
