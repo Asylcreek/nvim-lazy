@@ -109,5 +109,6 @@ end, { desc = "Close all buffers" })
 -- Todo comments
 vim.keymap.set("n", "gct", "o<esc>VcTODO: x<esc><cmd>normal gcc<cr>fxa<bs>", { desc = "Add todo comment below" })
 vim.keymap.set("n", "gcT", "O<esc>VcTODO: x<esc><cmd>normal gcc<cr>fxa<bs>", { desc = "Add todo comment above" })
+vim.keymap.set("n", "<leader>yt", "<cmd>let @+ = expand('%:p')<cr>", { desc = "Copy absolute path" })
 
 Snacks.toggle.option("wrap", { name = "Wrap" }):map("<leader>uw")
