@@ -2,7 +2,7 @@ return {
   "folke/flash.nvim",
   event = "VeryLazy",
   opts = {
-    labels = "nrtshaei",
+    labels = "haeinrts",
     modes = {
       char = {
         jump_labels = true,
