@@ -39,9 +39,17 @@ return {
   },
 
   {
+    "wtfox/jellybeans.nvim",
+    opts = {
+      transparent = true,
+      flat_ui = false,
+    },
+  },
+
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox-baby",
+      colorscheme = "jellybeans-muted",
       defaults = {
         keymaps = false,
       },
