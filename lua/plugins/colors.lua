@@ -43,6 +43,9 @@ return {
     opts = {
       transparent = true,
       flat_ui = false,
+      on_highlights = function(hl)
+        hl.MatchParen = nil
+      end,
     },
   },
 
