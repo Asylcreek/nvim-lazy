@@ -52,7 +52,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "jellybeans-muted",
+      colorscheme = "gruvbox-baby",
       defaults = {
         keymaps = false,
       },
