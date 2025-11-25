@@ -110,6 +110,7 @@ end, { desc = "Close all buffers" })
 vim.keymap.set("n", "gct", "o<esc>VcTODO: x<esc><cmd>normal gcc<cr>fxa<bs>", { desc = "Add todo comment below" })
 vim.keymap.set("n", "gcT", "O<esc>VcTODO: x<esc><cmd>normal gcc<cr>fxa<bs>", { desc = "Add todo comment above" })
 vim.keymap.set("n", "<leader>yt", "<cmd>let @+ = expand('%:p')<cr>", { desc = "Copy absolute path" })
-vim.keymap.set("n", "<leader>cy", "aconsole.log();<esc>hi", { desc = "Type console.log" })
+vim.keymap.set("n", "<leader>cy", "oconsole.log();<esc>hi", { desc = "Type console.log below" })
+vim.keymap.set("n", "<leader>cY", "Oconsole.log();<esc>hi", { desc = "Type console.log above" })
 
 Snacks.toggle.option("wrap", { name = "Wrap" }):map("<leader>uw")
