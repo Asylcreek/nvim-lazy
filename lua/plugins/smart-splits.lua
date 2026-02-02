@@ -36,5 +36,6 @@ return {
     vim.keymap.set({ "n", "v" }, "<leader>pm", "<cmd>MaximizerToggle!<CR>", { desc = "Toggle maximize current split" })
 
     vim.keymap.set("n", "<leader>pc", "<cmd>close<CR>", { desc = "Close current split" })
+    vim.keymap.set("n", "<leader>pt", "<cmd>tabclose<CR>", { desc = "Close current tab" })
   end,
 }
