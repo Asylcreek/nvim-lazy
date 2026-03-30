@@ -5,9 +5,10 @@ return {
     formatters_by_ft = {
       nginx = { "nginxfmt" },
       nix = { "nil" },
-      toml = { "pyproject-fmt" },
+      toml = { "taplo" },
       css = { "prettier" },
       scss = { "prettier" },
+      svelte = { "prettier" },
     },
   },
 }
