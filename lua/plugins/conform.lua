@@ -9,6 +9,7 @@ return {
       css = { "prettier" },
       scss = { "prettier" },
       svelte = { "prettier" },
+      swift = { "swift_format" },
     },
   },
 }

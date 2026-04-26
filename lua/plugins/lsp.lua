@@ -4,8 +4,6 @@ return {
     inlay_hints = {
       enabled = false,
     },
-    servers = {
-      nginx_language_server = {},
-    },
+    servers = {},
   },
 }
