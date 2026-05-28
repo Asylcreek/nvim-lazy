@@ -48,10 +48,23 @@ local react = {
         target = "%1/components/%2/\\(*.styles.ts\\|*.style.ts\\)",
         context = "style",
       },
+      {
+        target = "%1/components/%2/\\(*.module.scss\\|*.module.css\\)",
+        context = "style",
+      },
     },
   },
   {
     pattern = "(.*)/components/(.*)/(.*).style([s]?).ts$",
+    target = {
+      {
+        target = "%1/components/%2/\\(*.component.tsx\\|index.tsx\\)",
+        context = "component",
+      },
+    },
+  },
+  {
+    pattern = "(.*)/components/(.*)/(.*).module.(s?css)$",
     target = {
       {
         target = "%1/components/%2/\\(*.component.tsx\\|index.tsx\\)",
