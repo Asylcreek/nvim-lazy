@@ -4,6 +4,16 @@ return {
     inlay_hints = {
       enabled = false,
     },
-    servers = {},
+    servers = {
+      nil_ls = {
+        settings = {
+          ["nil"] = {
+            formatting = {
+              command = { "alejandra" },
+            },
+          },
+        },
+      },
+    },
   },
 }

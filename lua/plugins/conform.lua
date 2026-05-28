@@ -4,7 +4,7 @@ return {
   opts = {
     formatters_by_ft = {
       nginx = { "nginxfmt" },
-      nix = { "nil" },
+      nix = { "nil_ls" },
       toml = { "taplo" },
       css = { "prettier" },
       scss = { "prettier" },
