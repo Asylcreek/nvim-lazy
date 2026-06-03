@@ -56,6 +56,7 @@ vim.opt.splitright = true
 vim.opt.splitkeep = "cursor"
 
 vim.g.mapleader = " "
+vim.g.lazyvim_ts_lsp = "tsgo"
 vim.g.trouble_lualine = false
 vim.g.snacks_animate = false
 vim.g.maplocalleader = ","
