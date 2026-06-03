@@ -84,11 +84,15 @@ return {
     {
       "<leader>fr",
       function()
-        Snacks.picker.recent({ filter = { cwd = true, show_untracked = true } })
+        Snacks.picker.recent({ filter = { cwd = true, show_untracked = true, exclude = exclude_locs } })
       end,
       desc = "Recent (cwd)",
     },
-    { "<leader>ff", LazyVim.pick("files", { root = false, show_untracked = true }), desc = "Find Files (Root Dir)" },
+    {
+      "<leader>ff",
+      LazyVim.pick("files", { root = false, show_untracked = true, exclude = exclude_locs }),
+      desc = "Find Files (Root Dir)",
+    },
     {
       "<leader>fF",
       function()
@@ -108,7 +112,7 @@ return {
       end,
       desc = "Resume",
     },
-    { "<leader>sg", LazyVim.pick("live_grep", { root = false }), desc = "Grep (Root Dir)" },
+    { "<leader>sg", LazyVim.pick("live_grep", { root = false, exclude = exclude_locs }), desc = "Grep (Root Dir)" },
     {
       "<leader>sG",
       function()
