@@ -17,6 +17,7 @@ local log_lines = {
   tsx = "console.log(|);",
   typescript = "console.log(|);",
   typescriptreact = "console.log(|);",
+  svelte = "console.log(|);",
 }
 
 local function current_lang()
